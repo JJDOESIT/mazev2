@@ -4,15 +4,15 @@ class State_Manager:
     def __init__(self):
         self.queue = []
         self.visited = []
-        self.path={}
-        self.drawing_path=[]
+        self.path = {}
+        self.drawing_path = []
 
 class BFS_Pathfinding:
     def __init__(self, maze, start:tuple, stop:tuple, obstacle:str):
-        self.maze=maze
-        self.start=start
-        self.stop=stop
-        self.obstacle=obstacle
+        self.maze = maze
+        self.start = start
+        self.stop = stop
+        self.obstacle = obstacle
 
     #Backtrack and find final solution
     def backtrack(self):
@@ -21,7 +21,7 @@ class BFS_Pathfinding:
         temp_node = self.state_manager.path[self.stop]
         path.append(self.stop)
 
-        while temp_node!=self.start:
+        while temp_node != self.start:
             path.append(temp_node)
             temp_node = self.state_manager.path[temp_node]
         path.append(temp_node)
@@ -31,11 +31,12 @@ class BFS_Pathfinding:
     #Main algorithm
     def find_path(self):
         self.state_manager = State_Manager()
-        self.boundary_manager=boundaries.Boundaries(self.maze, self.obstacle)
+        self.boundary_manager = boundaries.Boundaries(self.maze, self.obstacle)
 
         self.state_manager.queue.append(self.start)
         self.state_manager.visited.append(self.start)
 
+        #While the queue is not empty
         while (self.state_manager.queue):
 
             #Remove node from queue

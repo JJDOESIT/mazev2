@@ -8,7 +8,7 @@ class State_Manager:
         self.drawing_path = []
 
 class DFS_Pathfinding:
-    def __init__(self, maze, start:tuple, stop:tuple, obstacle:str):
+    def __init__(self, maze:list, start:tuple, stop:tuple, obstacle:str):
         self.maze = maze
         self.start = start
         self.stop = stop
@@ -21,7 +21,7 @@ class DFS_Pathfinding:
         temp_node = self.state_manager.path[self.stop]
         path.append(self.stop)
 
-        while temp_node!=self.start:
+        while temp_node != self.start:
             path.append(temp_node)
             temp_node = self.state_manager.path[temp_node]
         path.append(temp_node)
