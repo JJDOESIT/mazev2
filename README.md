@@ -1,4 +1,5 @@
 # Maze Visualization Tool V2
+Maze Generator + Solver (A*, BFS, DFS) + Functional GUI
 <b>Pygame version 2.5.1</b> or later is required for use
 <br>
 <b>Quick install:</b> "pip install pygame"
