@@ -1,5 +1,6 @@
 # Maze Visualization Tool V2
-Maze Generator + Solver (A*, BFS, DFS) + Functional GUI
+<b>Maze Generator + Solver (A*, BFS, DFS) + Functional GUI<b>
+<br>
 <br>
 <b>Pygame version 2.5.1</b> or later is required for use
 <br>
