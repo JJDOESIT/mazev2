@@ -24,7 +24,5 @@
     -  Press <b>LCTRL</b> to view the admin panel (type to edit width + height of the maze and click and drag the sliders to change speeds)
   
 # Video
-
-
-<a href="https://youtu.be/5CFTmaINplY" target="_blank" ref="noreferrer"><img src="https://img.youtube.com/vi/5CFTmaINplY/hqdefault.jpg" alt="Maze Visualization" width="600" ></a>
+<a href="https://youtu.be/5CFTmaINplY"><img src="https://img.youtube.com/vi/5CFTmaINplY/hqdefault.jpg" alt="Maze Visualization" width="600" ></a>
 
