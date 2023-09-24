@@ -22,3 +22,8 @@
     -  Press <b>H</b> to return to the help screen
     -  Press <b>L</b> to view the console log (use up and down arrows to scroll)
     -  Press <b>LCTRL</b> to view the admin panel (type to edit width + height of the maze and click and drag the sliders to change speeds)
+  
+# Video
+
+[![Maze Visualization](https://github.com/JJDOESIT/mazev2/assets/138625553/f95bd08b-9505-403b-8f3b-33b5f598b140)](https://youtu.be/5CFTmaINplY)
+
