@@ -25,5 +25,6 @@
   
 # Video
 
-[![Maze Visualization](https://github.com/JJDOESIT/mazev2/assets/138625553/f95bd08b-9505-403b-8f3b-33b5f598b140)](https://youtu.be/5CFTmaINplY)
+
+<a href="https://youtu.be/5CFTmaINplY" target="_blank" ref="noreferrer"><img src="https://img.youtube.com/vi/5CFTmaINplY/hqdefault.jpg" alt="Maze Visualization" width="600" ></a>
 
