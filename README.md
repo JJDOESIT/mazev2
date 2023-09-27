@@ -23,6 +23,6 @@
     -  Press <b>L</b> to view the console log (use up and down arrows to scroll)
     -  Press <b>LCTRL</b> to view the admin panel (type to edit width + height of the maze and click and drag the sliders to change speeds)
   
-# Video
+# <a href="https://youtu.be/5CFTmaINplY">Video</a>
 <a href="https://youtu.be/5CFTmaINplY"><img src="https://img.youtube.com/vi/5CFTmaINplY/hqdefault.jpg" alt="Maze Visualization" width="600" ></a>
 
