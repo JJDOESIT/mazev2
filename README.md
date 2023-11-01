@@ -1,10 +1,8 @@
 # Maze Visualization Tool V2
-<b>Maze Generator + Solver (A*, BFS, DFS) + Functional GUI<b>
+<b>Maze Generator + Solver (A*, BFS, DFS) + Functional GUI</b>
 <br>
-<br>
-<b>Pygame version 2.5.1</b> or later is required for use
-<br>
-<b>Quick install:</b> "pip install pygame"
+- <b>Pygame version 2.5.1 or later is required for use
+  - Quick install:</b> ```pip install pygame```
 
 # How to Use:
 1. Run main.py
@@ -24,5 +22,5 @@
     -  Press <b>LCTRL</b> to view the admin panel (type to edit width + height of the maze and click and drag the sliders to change speeds)
   
 # <a href="https://youtu.be/5CFTmaINplY">Video</a>
-<a href="https://youtu.be/5CFTmaINplY"><img src="https://img.youtube.com/vi/5CFTmaINplY/hqdefault.jpg" alt="Maze Visualization" width="600" ></a>
+<a href="https://youtu.be/5CFTmaINplY"><img src="https://img.youtube.com/vi/5CFTmaINplY/maxresdefault.jpg" alt="Maze Visualization" width="600" ></a>
 
