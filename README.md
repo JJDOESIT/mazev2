@@ -3,7 +3,11 @@
 Maze Generator + Solver (A\*, BFS, DFS) + Functional GUI
 <br>
 
-- <b>Requirements:</b> Pygame version 2.5.1 or later is required for use
+- <b>How to run standalone executable:</b> 
+  - <b>Linux:</b> Download `linux.exe` from `dist`
+  - <b>Windows:</b> Download `windows.exe` from `dist`
+
+- <b>Requirements to run main.py:</b> Pygame version 2.5.1 or later
   - <b>Quick install:</b> `pip install pygame`
 
 # How to Use:
