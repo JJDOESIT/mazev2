@@ -14,6 +14,9 @@ class Event_Handler():
             if event.type == pg.QUIT:
                 self.state_manager.running = False
 
+            if event.type == pg.VIDEORESIZE:
+                self.state_manager.screen = pg.display.set_mode((self.state_manager.screen_width, self.state_manager.screen_height))
+
             if event.type == pg.KEYUP:
 
                 #Help menu
